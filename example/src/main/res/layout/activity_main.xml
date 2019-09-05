@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ir.sinadalvand.lib.multislideuppanel.MultiSlideUpPanel
+        app:decorGravity="Bottom"
+        app:decorParallax="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="10dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="#8E24AA"
+            app:panelHeightPercent="0.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:text="First Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="10dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="#1E88E5"
+            app:panelHeightPercent="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:text="Second Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="10dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="#7CB342"
+            app:panelHeightPercent="0.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:text="Third Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </ir.sinadalvand.lib.multislideuppanel.MultiSlideUpPanel>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

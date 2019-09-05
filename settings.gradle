@@ -1,0 +1,2 @@
+include ':example',':testLib', ':multislideuppanel'
+rootProject.name='MultiSlideUpPanel'
